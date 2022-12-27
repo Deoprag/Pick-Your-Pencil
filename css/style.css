@@ -61,7 +61,7 @@ section{
 }
 
 .option:is(:hover, .active) :where(span, label){
-    color: #525763;
+    color: #2978f0;
 }
 
 .option #fill-color{
