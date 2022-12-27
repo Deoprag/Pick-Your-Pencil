@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to top, rgb(123, 229, 255), rgb(0, 140, 255));
+    background: linear-gradient(to top, #809096, #525763);
     min-height: 100vh;
 }
 
@@ -52,7 +52,7 @@ section{
 }
 
 .option:is(:hover, .active) img{
-    filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(900deg) brightness(100%) contrast(100%);
+    filter: invert(32%) sepia(10%) saturate(582%) hue-rotate(185deg) brightness(98%) contrast(88%);
 }
 
 .option :where(span, label){
@@ -61,7 +61,7 @@ section{
 }
 
 .option:is(:hover, .active) :where(span, label){
-    color: #4A98F7;
+    color: #525763;
 }
 
 .option #fill-color{
@@ -71,7 +71,7 @@ section{
 }
 
 #fill-color:checked ~ label{
-    color: #4A98F7;
+    color: #525763;
 }
 
 .option #size-slider{
@@ -163,9 +163,9 @@ section{
 
 .buttons .save-img{
     color: #fff;
-    background: #4A98F7;
-    border: 1px solid #4A98F7;
-    box-shadow: 2px 2px #003372bb;
+    background: #525763;
+    border: 1px solid #525763;
+    box-shadow: 2px 2px #3b4258bb;
 }
 
 .save-img{
@@ -173,7 +173,7 @@ section{
 }
 
 .save-img:hover{
-    background: #0e66d3;
+    background: #3d464d;
     box-shadow: 2px 2px #000000bb;
     border-color: #081d36;
     transition: all 0.2s ease;
